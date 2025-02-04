@@ -1,0 +1,38 @@
+
+CREATE TABLE DimSupplier(
+	 SupplierKEY   varchar (50) NOT NULL,
+	 Id   varchar (50) NULL,
+	 Description   varchar (250) NULL,
+	 VatCode   varchar (50) NULL,
+	 FiscalCode   varchar (50) NULL,
+	 SupplierCustomFieldId1   varchar (50) NULL,
+	 SupplierCustomFieldDescription1   varchar (250) NULL,
+	 SupplierCustomFieldId2   varchar (50) NULL,
+	 SupplierCustomFieldDescription2   varchar (250) NULL,
+	 SupplierCustomFieldId3   varchar (50) NULL,
+	 SupplierCustomFieldDescription3   varchar (250) NULL,
+	 SupplierCustomFieldId4   varchar (50) NULL,
+	 SupplierCustomFieldDescription4   varchar (250) NULL,
+	 SupplierCustomFieldId5   varchar (50) NULL,
+	 SupplierCustomFieldDescription5   varchar (250) NULL,
+	 SupplierCustomFieldId6   varchar (50) NULL,
+	 SupplierCustomFieldDescription6   varchar (250) NULL,
+	 SupplierCustomFieldId7   varchar (50) NULL,
+	 SupplierCustomFieldDescription7   varchar (250) NULL,
+	 SupplierCustomFieldId8   varchar (50) NULL,
+	 SupplierCustomFieldDescription8   varchar (250) NULL,
+	 SupplierCustomFieldId9   varchar (50) NULL,
+	 SupplierCustomFieldDescription9   varchar (250) NULL,
+	 SupplierCustomFieldId10   varchar (50) NULL,
+	 SupplierCustomFieldDescription10   varchar (250) NULL,
+	 Address   varchar (250) NULL,
+	 Location   varchar (50) NULL,
+	 PostalCode   varchar (50) NULL,
+	 ProvinceCode   varchar (50) NULL,
+	 CountryCode   varchar (50) NULL,
+	 Mail   varchar (50) NULL,
+	 GeoPosition   varchar (50) NULL,
+	PRIMARY KEY(SupplierKEY)
+);
+
+

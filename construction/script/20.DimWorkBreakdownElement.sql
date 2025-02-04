@@ -1,0 +1,32 @@
+
+CREATE TABLE DimWorkBreakdownElement(
+	WorkBreakdownElementKEY varchar(50) NOT NULL,
+	Id varchar(50) NULL,
+	Description varchar(250) NULL,
+	StartDate date NULL,
+	EndDate date NULL,
+	WbeCustomFieldId1 varchar(50) NULL,
+	WbeCustomFieldDescription1 varchar(250) NULL,
+	WbeCustomFieldId2 varchar(50) NULL,
+	WbeCustomFieldDescription2 varchar(250) NULL,
+	WbeCustomFieldId3 varchar(50) NULL,
+	WbeCustomFieldDescription3 varchar(250) NULL,
+	WbeCustomFieldId4 varchar(50) NULL,
+	WbeCustomFieldDescription4 varchar(250) NULL,
+	WbeCustomFieldId5 varchar(50) NULL,
+	WbeCustomFieldDescription5 varchar(250) NULL,
+	WbeCustomFieldId6 varchar(50) NULL,
+	WbeCustomFieldDescription6 varchar(250) NULL,
+	WbeCustomFieldId7 varchar(50) NULL,
+	WbeCustomFieldDescription7 varchar(250) NULL,
+	WbeCustomFieldId8 varchar(50) NULL,
+	WbeCustomFieldDescription8 varchar(250) NULL,
+	WbeCustomFieldId9 varchar(50) NULL,
+	WbeCustomFieldDescription9 varchar(250) NULL,
+	WbeCustomFieldId10 varchar(50) NULL,
+	WbeCustomFieldDescription10 varchar(250) NULL,
+	CompanyId varchar(50) NULL,
+	ProjectId varchar(50) NULL,
+	PRIMARY KEY(WorkBreakdownElementKEY)
+);
+
